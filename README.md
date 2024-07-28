@@ -1,6 +1,7 @@
-# example-plugin
+## Contributing:
 
-This is an example of a Minecraft plugin written in JavaScript.
+Anyone is welcome to contribute to this project. Survival minigame ideas are most welcome,
+simply just create a pull request with an enhancement flag.
 
 ### Setting up
 
@@ -12,4 +13,4 @@ Run `npm install` to make sure all needed dependencies are installed.
 npm run build
 ```
 
-The JAR file will be put into `dist/ExamplePlugin.jar` in your project.
+The JAR file will be put into `dist/` in project root.
