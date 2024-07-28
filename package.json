@@ -1,0 +1,22 @@
+{
+	"name": "example-plugin",
+	"version": "1.0.0",
+	"description": "",
+	"scripts": {
+		"build": "crx build -o ./dist/ExamplePlugin.jar",
+		"serve": "crx run",
+		"clean": "rm -rf ./dist",
+		"crx": "crx"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@customrealms/core": "2.0.19"
+	},
+	"devDependencies": {
+		"@customrealms/cli": "2.0.9",
+		"tslib": "2.3.1",
+		"typescript": "4.4.4"
+	}
+}
