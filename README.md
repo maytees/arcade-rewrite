@@ -5,7 +5,6 @@ I dislike Java very much, so I've decided to rewrite this project in Typescript,
 
 ## Todo:
 
-
 - [ ] Minigame Runtime
   - [ ] Start Minigame
   - [ ] Stop Minigame
@@ -37,6 +36,9 @@ I dislike Java very much, so I've decided to rewrite this project in Typescript,
 
 Anyone is welcome to contribute to this project. Survival minigame ideas are most welcome,
 simply just create a pull request with an enhancement flag.
+
+When building you are able to directly compile the plugin to your plugins folder via the `build:dev` npm
+script. Simply change the `-o` path in the command.
 
 ### Setting up
 

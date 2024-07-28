@@ -1,9 +1,10 @@
 {
-	"name": "example-plugin",
-	"version": "1.0.0",
+	"name": "arcade",
+	"version": "0.0.1",
 	"description": "",
 	"scripts": {
-		"build": "crx build -o ./dist/ExamplePlugin.jar",
+		"build": "crx build -o ./dist/arcade.jar",
+		"build:dev": "crx build -o /opt/server/plugins/arcade-dev.jar",
 		"serve": "crx run",
 		"clean": "rm -rf ./dist",
 		"crx": "crx"
